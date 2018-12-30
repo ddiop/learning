@@ -17,10 +17,5 @@ pipeline {
             }
 
         }
-        stage('Deliver') {
-            steps {
-                echo 'This is a Deliver.' 
-            }
-        }
     }
 }
